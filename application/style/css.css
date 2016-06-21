@@ -1,0 +1,27 @@
+*{margin:0; padding:0;}
+ul {
+	margin:10px auto 0;
+	width:720px;
+	border:1px solid #000;
+	border-radius: 8px;
+	padding:10px 10px 0 10px;
+}
+ul::after{
+	content:"";
+	display: block;
+	clear:left;
+}
+
+li {
+	float:left;
+	width:220px;
+
+	margin:10px;
+	list-style-type: none;
+	display: block;
+}
+img{
+	width:220px;
+	border-radius: 8px;
+
+}
