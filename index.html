@@ -64,12 +64,12 @@
 		oTxt1.addEventListener('click', function(ev){ev.target.value='';}, false);
 		oTxt2.addEventListener('click', function(ev){ev.target.value='';}, false);
 		function ajaxGet(){
-			ajax('get', 'get.php', 'username=' + oTxt1.value + '&age=' + oTxt2.value, function(text){
+			ajax('get', 'http://liupeilink.github.io/ajax-demo/get.php', 'username=' + oTxt1.value + '&age=' + oTxt2.value, function(text){
 				alert(text);
 			});
 		}
 		function ajaxPost(){
-			ajax('post', 'post.php', 'username=' + oTxt1.value + '&age=' + oTxt2.value, function(text){
+			ajax('post', 'http://liupeilink.github.io/ajax-demo/post.php', 'username=' + oTxt1.value + '&age=' + oTxt2.value, function(text){
 				alert(text);
 			});
 		}
