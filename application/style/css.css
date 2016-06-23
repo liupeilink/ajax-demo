@@ -25,3 +25,5 @@ img{
 	border-radius: 8px;
 
 }
+
+h2 { word-break:break-all; }
